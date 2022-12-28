@@ -25,10 +25,20 @@
     background-color: rgb(11, 77, 163);
 }
 
-.navbar{
+#navbar{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: rgb(46, 46, 46);
 }
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .list-flex {
+    padding-top: 60px;
+  }

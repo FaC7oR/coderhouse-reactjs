@@ -8,6 +8,7 @@ import gigabyte3080 from "../../items/gigabyte3080.jpg";
 import evga3090 from "../../items/evga3090.jpg";
 
 import "./ItemListContainer.css";
+import "../navbar/NavBarSticky.jsx"
 
 {/* TUVE QUE IMPORTAR TODAS LAS IMÁGENES PORQUE NO ME PERMITÍA LINKEARLAS DIRECTAMENTE */}
 

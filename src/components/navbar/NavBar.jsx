@@ -1,4 +1,5 @@
-import "./NavBar.css";
+import "./NavBar.css"
+import "./NavBarSticky.jsx"
 import Carting from "../cartwidget/CartWidget.jsx"
 
 function MenuItem(props) {
@@ -9,11 +10,10 @@ function MenuItem(props) {
     );    
 }
 
-
 export default function NavBar() {
     return(
         <> 
-            <div className="navbar">
+            <div id="navbar">
                 <MenuItem title="Menú" href=""/>
                 <MenuItem title="Productos" href=""/>
                 <MenuItem title="Carrito" href=""/>
