@@ -1,0 +1,21 @@
+.list-item{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: grey;
+    margin: 30px;
+}
+
+.list-item-img{
+    width: 180px;
+    height: 180px;
+}
+
+.list-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
